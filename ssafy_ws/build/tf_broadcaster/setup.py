@@ -1,1 +1,0 @@
-/home/shh/ssafy_gazeboy/ssafy_ws/src/tf_broadcaster/setup.py

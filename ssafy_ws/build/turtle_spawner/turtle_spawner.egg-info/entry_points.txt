@@ -1,3 +1,0 @@
-[console_scripts]
-spawn_turtle = turtle_spawner.spawn_turtle:main
-

@@ -1,1 +1,0 @@
-/home/shh/ssafy_gazeboy/ssafy_ws/src/my_python_pkg/setup.py

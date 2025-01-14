@@ -1,0 +1,30 @@
+[0.702s] Invoking command in '/home/shh/ssafy_gazeboy/ssafy_ws/build/250114': PYTHONPATH=/home/shh/ssafy_gazeboy/ssafy_ws/build/250114/prefix_override:/home/shh/ssafy_gazeboy/ssafy_ws/install/250114/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_gazeboy/ssafy_ws/build/250114/build --no-deps install_data
+[0.916s] running develop
+[1.055s] running egg_info
+[1.055s] creating 250114.egg-info
+[1.055s] writing 250114.egg-info/PKG-INFO
+[1.055s] writing dependency_links to 250114.egg-info/dependency_links.txt
+[1.055s] writing entry points to 250114.egg-info/entry_points.txt
+[1.055s] writing requirements to 250114.egg-info/requires.txt
+[1.055s] writing top-level names to 250114.egg-info/top_level.txt
+[1.056s] writing manifest file '250114.egg-info/SOURCES.txt'
+[1.081s] reading manifest file '250114.egg-info/SOURCES.txt'
+[1.081s] writing manifest file '250114.egg-info/SOURCES.txt'
+[1.109s] running build_ext
+[1.109s] Creating /home/shh/ssafy_gazeboy/ssafy_ws/install/250114/lib/python3.8/site-packages/site.py
+[1.111s] Creating /home/shh/ssafy_gazeboy/ssafy_ws/install/250114/lib/python3.8/site-packages/250114.egg-link (link to .)
+[1.112s] 
+[1.112s] Installed /home/shh/ssafy_gazeboy/ssafy_ws/build/250114
+[1.112s] running install_data
+[1.112s] creating /home/shh/ssafy_gazeboy/ssafy_ws/install/250114/share/ament_index
+[1.112s] creating /home/shh/ssafy_gazeboy/ssafy_ws/install/250114/share/ament_index/resource_index
+[1.112s] creating /home/shh/ssafy_gazeboy/ssafy_ws/install/250114/share/ament_index/resource_index/packages
+[1.112s] copying resource/250114 -> /home/shh/ssafy_gazeboy/ssafy_ws/install/250114/share/ament_index/resource_index/packages
+[1.112s] copying package.xml -> /home/shh/ssafy_gazeboy/ssafy_ws/install/250114/share/250114
+[1.112s] creating /home/shh/ssafy_gazeboy/ssafy_ws/install/250114/share/250114/launch
+[1.112s] copying launch/spawn_entity.launch.py -> /home/shh/ssafy_gazeboy/ssafy_ws/install/250114/share/250114/launch
+[1.112s] copying launch/spawn_velodyne.launch.py -> /home/shh/ssafy_gazeboy/ssafy_ws/install/250114/share/250114/launch
+[1.113s] creating /home/shh/ssafy_gazeboy/ssafy_ws/install/250114/share/250114/models
+[1.113s] copying models/simple.urdf -> /home/shh/ssafy_gazeboy/ssafy_ws/install/250114/share/250114/models
+[1.113s] copying models/test.urdf -> /home/shh/ssafy_gazeboy/ssafy_ws/install/250114/share/250114/models
+[1.155s] Invoked command in '/home/shh/ssafy_gazeboy/ssafy_ws/build/250114' returned '0': PYTHONPATH=/home/shh/ssafy_gazeboy/ssafy_ws/build/250114/prefix_override:/home/shh/ssafy_gazeboy/ssafy_ws/install/250114/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_gazeboy/ssafy_ws/build/250114/build --no-deps install_data

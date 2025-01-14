@@ -11,5 +11,6 @@ setup.py
 250114.egg-info/zip-safe
 launch/spawn_entity.launch.py
 launch/spawn_velodyne.launch.py
+models/simple.urdf
 models/test.urdf
 resource/250114

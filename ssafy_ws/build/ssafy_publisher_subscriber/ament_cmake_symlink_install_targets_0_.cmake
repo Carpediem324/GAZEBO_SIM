@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/shh/ssafy_gazeboy/ssafy_ws/build/ssafy_publisher_subscriber/ssafy_publisher" "/home/shh/ssafy_gazeboy/ssafy_ws/build/ssafy_publisher_subscriber/ssafy_subscriber" "TARGETS" "ssafy_publisher" "ssafy_subscriber" "DESTINATION" "lib/ssafy_publisher_subscriber")

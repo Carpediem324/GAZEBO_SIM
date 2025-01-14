@@ -1,1 +1,0 @@
-/home/shh/ssafy_gazeboy/ssafy_ws/src/yolo_pkg/setup.py
