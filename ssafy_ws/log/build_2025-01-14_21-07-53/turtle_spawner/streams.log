@@ -1,0 +1,17 @@
+[3.364s] Invoking command in '/home/shh/ssafy_gazeboy/ssafy_ws/build/turtle_spawner': PYTHONPATH=/home/shh/ssafy_gazeboy/ssafy_ws/build/turtle_spawner/prefix_override:/home/shh/ssafy_gazeboy/ssafy_ws/install/turtle_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_gazeboy/ssafy_ws/build/turtle_spawner/build --no-deps install_data
+[3.676s] running develop
+[3.939s] running egg_info
+[3.939s] writing turtle_spawner.egg-info/PKG-INFO
+[3.940s] writing dependency_links to turtle_spawner.egg-info/dependency_links.txt
+[3.940s] writing entry points to turtle_spawner.egg-info/entry_points.txt
+[3.940s] writing requirements to turtle_spawner.egg-info/requires.txt
+[3.941s] writing top-level names to turtle_spawner.egg-info/top_level.txt
+[3.962s] reading manifest file 'turtle_spawner.egg-info/SOURCES.txt'
+[3.963s] writing manifest file 'turtle_spawner.egg-info/SOURCES.txt'
+[3.999s] running build_ext
+[4.000s] Creating /home/shh/ssafy_gazeboy/ssafy_ws/install/turtle_spawner/lib/python3.8/site-packages/turtle-spawner.egg-link (link to .)
+[4.000s] Installing spawn_turtle script to /home/shh/ssafy_gazeboy/ssafy_ws/install/turtle_spawner/lib/turtle_spawner
+[4.000s] 
+[4.001s] Installed /home/shh/ssafy_gazeboy/ssafy_ws/build/turtle_spawner
+[4.007s] running install_data
+[4.132s] Invoked command in '/home/shh/ssafy_gazeboy/ssafy_ws/build/turtle_spawner' returned '0': PYTHONPATH=/home/shh/ssafy_gazeboy/ssafy_ws/build/turtle_spawner/prefix_override:/home/shh/ssafy_gazeboy/ssafy_ws/install/turtle_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_gazeboy/ssafy_ws/build/turtle_spawner/build --no-deps install_data

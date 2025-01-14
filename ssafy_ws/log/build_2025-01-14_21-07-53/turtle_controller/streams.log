@@ -1,0 +1,17 @@
+[3.277s] Invoking command in '/home/shh/ssafy_gazeboy/ssafy_ws/build/turtle_controller': PYTHONPATH=/home/shh/ssafy_gazeboy/ssafy_ws/build/turtle_controller/prefix_override:/home/shh/ssafy_gazeboy/ssafy_ws/install/turtle_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_gazeboy/ssafy_ws/build/turtle_controller/build --no-deps install_data
+[3.665s] running develop
+[3.936s] running egg_info
+[3.936s] writing turtle_controller.egg-info/PKG-INFO
+[3.937s] writing dependency_links to turtle_controller.egg-info/dependency_links.txt
+[3.937s] writing entry points to turtle_controller.egg-info/entry_points.txt
+[3.938s] writing requirements to turtle_controller.egg-info/requires.txt
+[3.938s] writing top-level names to turtle_controller.egg-info/top_level.txt
+[3.983s] reading manifest file 'turtle_controller.egg-info/SOURCES.txt'
+[3.984s] writing manifest file 'turtle_controller.egg-info/SOURCES.txt'
+[4.039s] running build_ext
+[4.039s] Creating /home/shh/ssafy_gazeboy/ssafy_ws/install/turtle_controller/lib/python3.8/site-packages/turtle-controller.egg-link (link to .)
+[4.039s] Installing turtle_controller script to /home/shh/ssafy_gazeboy/ssafy_ws/install/turtle_controller/lib/turtle_controller
+[4.040s] 
+[4.040s] Installed /home/shh/ssafy_gazeboy/ssafy_ws/build/turtle_controller
+[4.040s] running install_data
+[4.216s] Invoked command in '/home/shh/ssafy_gazeboy/ssafy_ws/build/turtle_controller' returned '0': PYTHONPATH=/home/shh/ssafy_gazeboy/ssafy_ws/build/turtle_controller/prefix_override:/home/shh/ssafy_gazeboy/ssafy_ws/install/turtle_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_gazeboy/ssafy_ws/build/turtle_controller/build --no-deps install_data

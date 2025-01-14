@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shh/ssafy_ws/src/ssafy_publisher_subscriber
+CMAKE_SOURCE_DIR = /home/shh/ssafy_gazeboy/ssafy_ws/src/ssafy_publisher_subscriber
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shh/ssafy_ws/build/ssafy_publisher_subscriber
+CMAKE_BINARY_DIR = /home/shh/ssafy_gazeboy/ssafy_ws/build/ssafy_publisher_subscriber
 
 # Utility rule file for uninstall.
 
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/shh/ssafy_ws/build/ssafy_publisher_subscriber && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shh/ssafy_ws/src/ssafy_publisher_subscriber /home/shh/ssafy_ws/src/ssafy_publisher_subscriber /home/shh/ssafy_ws/build/ssafy_publisher_subscriber /home/shh/ssafy_ws/build/ssafy_publisher_subscriber /home/shh/ssafy_ws/build/ssafy_publisher_subscriber/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shh/ssafy_gazeboy/ssafy_ws/build/ssafy_publisher_subscriber && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shh/ssafy_gazeboy/ssafy_ws/src/ssafy_publisher_subscriber /home/shh/ssafy_gazeboy/ssafy_ws/src/ssafy_publisher_subscriber /home/shh/ssafy_gazeboy/ssafy_ws/build/ssafy_publisher_subscriber /home/shh/ssafy_gazeboy/ssafy_ws/build/ssafy_publisher_subscriber /home/shh/ssafy_gazeboy/ssafy_ws/build/ssafy_publisher_subscriber/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

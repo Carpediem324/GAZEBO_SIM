@@ -1,1 +1,1 @@
-/home/shh/ssafy_ws/src/250114/launch/spawn_velodyne.launch.py
+/home/shh/ssafy_gazeboy/ssafy_ws/src/250114/launch/spawn_velodyne.launch.py

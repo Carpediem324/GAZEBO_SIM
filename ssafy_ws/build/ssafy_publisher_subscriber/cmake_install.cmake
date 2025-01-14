@@ -1,8 +1,8 @@
-# Install script for directory: /home/shh/ssafy_ws/src/ssafy_publisher_subscriber
+# Install script for directory: /home/shh/ssafy_gazeboy/ssafy_ws/src/ssafy_publisher_subscriber
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/shh/ssafy_ws/install/ssafy_publisher_subscriber")
+  set(CMAKE_INSTALL_PREFIX "/home/shh/ssafy_gazeboy/ssafy_ws/install/ssafy_publisher_subscriber")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/shh/ssafy_ws/build/ssafy_publisher_subscriber/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/shh/ssafy_gazeboy/ssafy_ws/build/ssafy_publisher_subscriber/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -49,5 +49,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/shh/ssafy_ws/build/ssafy_publisher_subscriber/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/shh/ssafy_gazeboy/ssafy_ws/build/ssafy_publisher_subscriber/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

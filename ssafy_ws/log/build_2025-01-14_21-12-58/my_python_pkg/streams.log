@@ -1,0 +1,17 @@
+[3.478s] Invoking command in '/home/shh/ssafy_gazeboy/ssafy_ws/build/my_python_pkg': PYTHONPATH=/home/shh/ssafy_gazeboy/ssafy_ws/build/my_python_pkg/prefix_override:/home/shh/ssafy_gazeboy/ssafy_ws/install/my_python_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_gazeboy/ssafy_ws/build/my_python_pkg/build --no-deps install_data
+[3.780s] running develop
+[3.961s] running egg_info
+[3.962s] writing my_python_pkg.egg-info/PKG-INFO
+[3.962s] writing dependency_links to my_python_pkg.egg-info/dependency_links.txt
+[3.962s] writing entry points to my_python_pkg.egg-info/entry_points.txt
+[3.962s] writing requirements to my_python_pkg.egg-info/requires.txt
+[3.962s] writing top-level names to my_python_pkg.egg-info/top_level.txt
+[3.992s] reading manifest file 'my_python_pkg.egg-info/SOURCES.txt'
+[3.993s] writing manifest file 'my_python_pkg.egg-info/SOURCES.txt'
+[4.029s] running build_ext
+[4.029s] Creating /home/shh/ssafy_gazeboy/ssafy_ws/install/my_python_pkg/lib/python3.8/site-packages/my-python-pkg.egg-link (link to .)
+[4.030s] Installing my_node script to /home/shh/ssafy_gazeboy/ssafy_ws/install/my_python_pkg/lib/my_python_pkg
+[4.041s] 
+[4.041s] Installed /home/shh/ssafy_gazeboy/ssafy_ws/build/my_python_pkg
+[4.042s] running install_data
+[4.082s] Invoked command in '/home/shh/ssafy_gazeboy/ssafy_ws/build/my_python_pkg' returned '0': PYTHONPATH=/home/shh/ssafy_gazeboy/ssafy_ws/build/my_python_pkg/prefix_override:/home/shh/ssafy_gazeboy/ssafy_ws/install/my_python_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_gazeboy/ssafy_ws/build/my_python_pkg/build --no-deps install_data

@@ -1,1 +1,1 @@
-/home/shh/ssafy_ws/build/ssafy_publisher_subscriber/ament_cmake_environment_hooks/local_setup.sh
+/home/shh/ssafy_gazeboy/ssafy_ws/build/ssafy_publisher_subscriber/ament_cmake_environment_hooks/local_setup.sh

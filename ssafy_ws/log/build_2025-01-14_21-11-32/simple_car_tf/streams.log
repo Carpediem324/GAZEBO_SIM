@@ -1,0 +1,17 @@
+[3.553s] Invoking command in '/home/shh/ssafy_gazeboy/ssafy_ws/build/simple_car_tf': PYTHONPATH=/home/shh/ssafy_gazeboy/ssafy_ws/build/simple_car_tf/prefix_override:/home/shh/ssafy_gazeboy/ssafy_ws/install/simple_car_tf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_gazeboy/ssafy_ws/build/simple_car_tf/build --no-deps install_data
+[3.933s] running develop
+[4.188s] running egg_info
+[4.189s] writing simple_car_tf.egg-info/PKG-INFO
+[4.189s] writing dependency_links to simple_car_tf.egg-info/dependency_links.txt
+[4.189s] writing entry points to simple_car_tf.egg-info/entry_points.txt
+[4.190s] writing requirements to simple_car_tf.egg-info/requires.txt
+[4.190s] writing top-level names to simple_car_tf.egg-info/top_level.txt
+[4.223s] reading manifest file 'simple_car_tf.egg-info/SOURCES.txt'
+[4.223s] writing manifest file 'simple_car_tf.egg-info/SOURCES.txt'
+[4.257s] running build_ext
+[4.257s] Creating /home/shh/ssafy_gazeboy/ssafy_ws/install/simple_car_tf/lib/python3.8/site-packages/simple-car-tf.egg-link (link to .)
+[4.258s] Installing move_car script to /home/shh/ssafy_gazeboy/ssafy_ws/install/simple_car_tf/lib/simple_car_tf
+[4.258s] 
+[4.258s] Installed /home/shh/ssafy_gazeboy/ssafy_ws/build/simple_car_tf
+[4.259s] running install_data
+[4.310s] Invoked command in '/home/shh/ssafy_gazeboy/ssafy_ws/build/simple_car_tf' returned '0': PYTHONPATH=/home/shh/ssafy_gazeboy/ssafy_ws/build/simple_car_tf/prefix_override:/home/shh/ssafy_gazeboy/ssafy_ws/install/simple_car_tf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_gazeboy/ssafy_ws/build/simple_car_tf/build --no-deps install_data

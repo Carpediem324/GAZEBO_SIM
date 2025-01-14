@@ -1,1 +1,1 @@
-/home/shh/ssafy_ws/src/simple_publisher/setup.py
+/home/shh/ssafy_gazeboy/ssafy_ws/src/simple_publisher/setup.py

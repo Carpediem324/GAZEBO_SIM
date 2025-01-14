@@ -1,3 +1,3 @@
 import sys
 sys.real_prefix = sys.prefix
-sys.prefix = sys.exec_prefix = '/home/shh/ssafy_ws/install/turtle_spawner'
+sys.prefix = sys.exec_prefix = '/home/shh/ssafy_gazeboy/ssafy_ws/install/turtle_spawner'

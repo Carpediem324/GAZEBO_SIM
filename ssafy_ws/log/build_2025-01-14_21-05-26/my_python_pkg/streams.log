@@ -1,0 +1,25 @@
+[3.168s] Invoking command in '/home/shh/ssafy_gazeboy/ssafy_ws/build/my_python_pkg': PYTHONPATH=/home/shh/ssafy_gazeboy/ssafy_ws/build/my_python_pkg/prefix_override:/home/shh/ssafy_gazeboy/ssafy_ws/install/my_python_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_gazeboy/ssafy_ws/build/my_python_pkg/build --no-deps install_data
+[3.537s] running develop
+[3.792s] running egg_info
+[3.792s] creating my_python_pkg.egg-info
+[3.793s] writing my_python_pkg.egg-info/PKG-INFO
+[3.793s] writing dependency_links to my_python_pkg.egg-info/dependency_links.txt
+[3.793s] writing entry points to my_python_pkg.egg-info/entry_points.txt
+[3.793s] writing requirements to my_python_pkg.egg-info/requires.txt
+[3.794s] writing top-level names to my_python_pkg.egg-info/top_level.txt
+[3.794s] writing manifest file 'my_python_pkg.egg-info/SOURCES.txt'
+[3.839s] reading manifest file 'my_python_pkg.egg-info/SOURCES.txt'
+[3.840s] writing manifest file 'my_python_pkg.egg-info/SOURCES.txt'
+[3.879s] running build_ext
+[3.880s] Creating /home/shh/ssafy_gazeboy/ssafy_ws/install/my_python_pkg/lib/python3.8/site-packages/site.py
+[3.882s] Creating /home/shh/ssafy_gazeboy/ssafy_ws/install/my_python_pkg/lib/python3.8/site-packages/my-python-pkg.egg-link (link to .)
+[3.883s] Installing my_node script to /home/shh/ssafy_gazeboy/ssafy_ws/install/my_python_pkg/lib/my_python_pkg
+[3.883s] 
+[3.884s] Installed /home/shh/ssafy_gazeboy/ssafy_ws/build/my_python_pkg
+[3.884s] running install_data
+[3.884s] creating /home/shh/ssafy_gazeboy/ssafy_ws/install/my_python_pkg/share/ament_index
+[3.884s] creating /home/shh/ssafy_gazeboy/ssafy_ws/install/my_python_pkg/share/ament_index/resource_index
+[3.884s] creating /home/shh/ssafy_gazeboy/ssafy_ws/install/my_python_pkg/share/ament_index/resource_index/packages
+[3.884s] copying resource/my_python_pkg -> /home/shh/ssafy_gazeboy/ssafy_ws/install/my_python_pkg/share/ament_index/resource_index/packages
+[3.884s] copying package.xml -> /home/shh/ssafy_gazeboy/ssafy_ws/install/my_python_pkg/share/my_python_pkg
+[3.941s] Invoked command in '/home/shh/ssafy_gazeboy/ssafy_ws/build/my_python_pkg' returned '0': PYTHONPATH=/home/shh/ssafy_gazeboy/ssafy_ws/build/my_python_pkg/prefix_override:/home/shh/ssafy_gazeboy/ssafy_ws/install/my_python_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_gazeboy/ssafy_ws/build/my_python_pkg/build --no-deps install_data

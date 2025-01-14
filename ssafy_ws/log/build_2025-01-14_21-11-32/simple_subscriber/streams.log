@@ -1,0 +1,17 @@
+[3.420s] Invoking command in '/home/shh/ssafy_gazeboy/ssafy_ws/build/simple_subscriber': PYTHONPATH=/home/shh/ssafy_gazeboy/ssafy_ws/build/simple_subscriber/prefix_override:/home/shh/ssafy_gazeboy/ssafy_ws/install/simple_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_gazeboy/ssafy_ws/build/simple_subscriber/build --no-deps install_data
+[3.788s] running develop
+[4.057s] running egg_info
+[4.058s] writing simple_subscriber.egg-info/PKG-INFO
+[4.067s] writing dependency_links to simple_subscriber.egg-info/dependency_links.txt
+[4.067s] writing entry points to simple_subscriber.egg-info/entry_points.txt
+[4.067s] writing requirements to simple_subscriber.egg-info/requires.txt
+[4.068s] writing top-level names to simple_subscriber.egg-info/top_level.txt
+[4.101s] reading manifest file 'simple_subscriber.egg-info/SOURCES.txt'
+[4.101s] writing manifest file 'simple_subscriber.egg-info/SOURCES.txt'
+[4.140s] running build_ext
+[4.140s] Creating /home/shh/ssafy_gazeboy/ssafy_ws/install/simple_subscriber/lib/python3.8/site-packages/simple-subscriber.egg-link (link to .)
+[4.140s] Installing simple_subscriber script to /home/shh/ssafy_gazeboy/ssafy_ws/install/simple_subscriber/lib/simple_subscriber
+[4.141s] 
+[4.141s] Installed /home/shh/ssafy_gazeboy/ssafy_ws/build/simple_subscriber
+[4.141s] running install_data
+[4.216s] Invoked command in '/home/shh/ssafy_gazeboy/ssafy_ws/build/simple_subscriber' returned '0': PYTHONPATH=/home/shh/ssafy_gazeboy/ssafy_ws/build/simple_subscriber/prefix_override:/home/shh/ssafy_gazeboy/ssafy_ws/install/simple_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_gazeboy/ssafy_ws/build/simple_subscriber/build --no-deps install_data

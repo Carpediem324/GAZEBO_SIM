@@ -1,13 +1,6 @@
 package.xml
 setup.cfg
 setup.py
-../../build/tf_broadcaster/tf_broadcaster.egg-info/PKG-INFO
-../../build/tf_broadcaster/tf_broadcaster.egg-info/SOURCES.txt
-../../build/tf_broadcaster/tf_broadcaster.egg-info/dependency_links.txt
-../../build/tf_broadcaster/tf_broadcaster.egg-info/entry_points.txt
-../../build/tf_broadcaster/tf_broadcaster.egg-info/requires.txt
-../../build/tf_broadcaster/tf_broadcaster.egg-info/top_level.txt
-../../build/tf_broadcaster/tf_broadcaster.egg-info/zip-safe
 resource/tf_broadcaster
 tf_broadcaster/__init__.py
 tf_broadcaster/tf_broadcaster.py
