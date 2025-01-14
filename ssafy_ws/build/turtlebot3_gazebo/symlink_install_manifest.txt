@@ -4,6 +4,16 @@
 /home/shh/ssafy_gazeboy/ssafy_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
 /home/shh/ssafy_gazeboy/ssafy_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_burger.launch.py
 /home/shh/ssafy_gazeboy/ssafy_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_velodyne_burger.launch.py
+/home/shh/ssafy_gazeboy/ssafy_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ssafy_model/meshes/burger_base.stl
+/home/shh/ssafy_gazeboy/ssafy_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ssafy_model/meshes/lds.stl
+/home/shh/ssafy_gazeboy/ssafy_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ssafy_model/meshes/left_tire.stl
+/home/shh/ssafy_gazeboy/ssafy_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ssafy_model/meshes/right_tire.stl
+/home/shh/ssafy_gazeboy/ssafy_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ssafy_model/meshes_dae/burger_base.dae
+/home/shh/ssafy_gazeboy/ssafy_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ssafy_model/meshes_dae/lds.dae
+/home/shh/ssafy_gazeboy/ssafy_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ssafy_model/meshes_dae/left_tire.dae
+/home/shh/ssafy_gazeboy/ssafy_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ssafy_model/meshes_dae/right_tire.dae
+/home/shh/ssafy_gazeboy/ssafy_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ssafy_model/model.config
+/home/shh/ssafy_gazeboy/ssafy_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ssafy_model/model.sdf
 /home/shh/ssafy_gazeboy/ssafy_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/scripts/course.material
 /home/shh/ssafy_gazeboy/ssafy_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/textures/course.png
 /home/shh/ssafy_gazeboy/ssafy_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.config

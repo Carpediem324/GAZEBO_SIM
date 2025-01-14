@@ -1,0 +1,17 @@
+[0.820s] Invoking command in '/home/shh/ssafy_gazeboy/ssafy_ws/build/teleop_twist_keyboard': PYTHONPATH=/home/shh/ssafy_gazeboy/ssafy_ws/build/teleop_twist_keyboard/prefix_override:/home/shh/ssafy_gazeboy/ssafy_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_gazeboy/ssafy_ws/build/teleop_twist_keyboard/build --no-deps install_data
+[1.058s] running develop
+[1.212s] running egg_info
+[1.212s] writing teleop_twist_keyboard.egg-info/PKG-INFO
+[1.212s] writing dependency_links to teleop_twist_keyboard.egg-info/dependency_links.txt
+[1.212s] writing entry points to teleop_twist_keyboard.egg-info/entry_points.txt
+[1.212s] writing requirements to teleop_twist_keyboard.egg-info/requires.txt
+[1.212s] writing top-level names to teleop_twist_keyboard.egg-info/top_level.txt
+[1.239s] reading manifest file 'teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.239s] writing manifest file 'teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.268s] running build_ext
+[1.269s] Creating /home/shh/ssafy_gazeboy/ssafy_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages/teleop-twist-keyboard.egg-link (link to .)
+[1.269s] Installing teleop_twist_keyboard script to /home/shh/ssafy_gazeboy/ssafy_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+[1.269s] 
+[1.269s] Installed /home/shh/ssafy_gazeboy/ssafy_ws/build/teleop_twist_keyboard
+[1.269s] running install_data
+[1.333s] Invoked command in '/home/shh/ssafy_gazeboy/ssafy_ws/build/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/shh/ssafy_gazeboy/ssafy_ws/build/teleop_twist_keyboard/prefix_override:/home/shh/ssafy_gazeboy/ssafy_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_gazeboy/ssafy_ws/build/teleop_twist_keyboard/build --no-deps install_data
