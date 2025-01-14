@@ -27,10 +27,3 @@ git clone https://github.com/Carpediem324/GAZEBO_SIM.git
 
 Gazebo에서 센서를 사용하는 방법에 대한 지침은 저장소에 제공될 예정입니다.
 
-## 🤝 기여
-
-기여는 환영합니다! 변경 사항을 만들기 전에 [기여 가이드라인](CONTRIBUTING.md)을 읽어주세요.
-
-## 📄 라이선스
-
-이 프로젝트는 MIT 라이선스에 따라 라이선스가 부여됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
