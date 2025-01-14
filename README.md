@@ -29,8 +29,13 @@ Gazebo에서 센서를 사용하는 방법에 대한 지침은 저장소에 제�
 
 ---
 
-## bashrc에 추가해야함.모델경로
+## bashrc에 추가해야함.모델경로 환경변수로
 ```
 export TURTLEBOT3_MODEL=burger	
 export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/shh/ssafy_gazeboy/ssafy_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/
+```
+
+## 아래명령어로 실행하면 실행됨. 에러는 무시해도되고 ros2 topic 보면 해결됨.
+```
+ros2 launch turtlebot3_gazebo turtlebot3_velodyne_burger.launch.py 
 ```
