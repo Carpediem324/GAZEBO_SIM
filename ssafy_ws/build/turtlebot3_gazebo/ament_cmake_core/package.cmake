@@ -5,7 +5,7 @@ set(turtlebot3_gazebo_BUILD_DEPENDS "gazebo_ros_pkgs" "geometry_msgs" "nav_msgs"
 set(turtlebot3_gazebo_BUILDTOOL_DEPENDS "ament_cmake")
 set(turtlebot3_gazebo_BUILD_EXPORT_DEPENDS "gazebo_ros_pkgs" "geometry_msgs" "nav_msgs" "rclcpp" "sensor_msgs" "tf2")
 set(turtlebot3_gazebo_BUILDTOOL_EXPORT_DEPENDS )
-set(turtlebot3_gazebo_EXEC_DEPENDS "turtlebot3_description" "gazebo_ros_pkgs" "geometry_msgs" "nav_msgs" "rclcpp" "sensor_msgs" "tf2")
+set(turtlebot3_gazebo_EXEC_DEPENDS "turtlebot3_description" "velodyne_description" "urdf" "xacro" "gazebo_ros_pkgs" "geometry_msgs" "nav_msgs" "rclcpp" "sensor_msgs" "tf2")
 set(turtlebot3_gazebo_TEST_DEPENDS )
 set(turtlebot3_gazebo_GROUP_DEPENDS )
 set(turtlebot3_gazebo_MEMBER_OF_GROUPS )

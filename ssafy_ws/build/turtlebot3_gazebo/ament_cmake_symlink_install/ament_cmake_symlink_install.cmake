@@ -313,8 +313,8 @@ message(STATUS "Execute custom install script")
 # install("TARGETS" "turtlebot3_drive" "DESTINATION" "lib/turtlebot3_gazebo")
 include("/home/shh/ssafy_gazeboy/ssafy_ws/build/turtlebot3_gazebo/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(DIRECTORY "launch" "models" "rviz" "worlds" "DESTINATION" "share/turtlebot3_gazebo/")
-ament_cmake_symlink_install_directory("/home/shh/ssafy_gazeboy/ssafy_ws/src/turtlebot3_simulations/turtlebot3_gazebo" DIRECTORY "launch" "models" "rviz" "worlds" "DESTINATION" "share/turtlebot3_gazebo/")
+# install(DIRECTORY "launch" "models" "rviz" "worlds" "urdf" "DESTINATION" "share/turtlebot3_gazebo/")
+ament_cmake_symlink_install_directory("/home/shh/ssafy_gazeboy/ssafy_ws/src/turtlebot3_simulations/turtlebot3_gazebo" DIRECTORY "launch" "models" "rviz" "worlds" "urdf" "DESTINATION" "share/turtlebot3_gazebo/")
 
 # install(DIRECTORY "include/" "DESTINATION" "include/")
 ament_cmake_symlink_install_directory("/home/shh/ssafy_gazeboy/ssafy_ws/src/turtlebot3_simulations/turtlebot3_gazebo" DIRECTORY "include/" "DESTINATION" "include/")

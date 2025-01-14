@@ -27,3 +27,10 @@ git clone https://github.com/Carpediem324/GAZEBO_SIM.git
 
 Gazebo에서 센서를 사용하는 방법에 대한 지침은 저장소에 제공될 예정입니다.
 
+---
+
+## bashrc에 추가해야함.모델경로
+```
+export TURTLEBOT3_MODEL=burger	
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/shh/ssafy_gazeboy/ssafy_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/
+```

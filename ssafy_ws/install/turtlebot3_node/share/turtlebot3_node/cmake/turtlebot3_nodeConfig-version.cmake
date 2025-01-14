@@ -1,1 +1,0 @@
-/home/shh/ssafy_gazeboy/ssafy_ws/build/turtlebot3_node/ament_cmake_core/turtlebot3_nodeConfig-version.cmake

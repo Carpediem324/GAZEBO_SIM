@@ -1,1 +1,0 @@
-/home/shh/ssafy_gazeboy/ssafy_ws/src/turtlebot3/turtlebot3_teleop/setup.py

@@ -1,9 +1,0 @@
-/home/shh/ssafy_gazeboy/ssafy_ws/build/turtlebot3/CMakeFiles/install/local.dir
-/home/shh/ssafy_gazeboy/ssafy_ws/build/turtlebot3/CMakeFiles/install.dir
-/home/shh/ssafy_gazeboy/ssafy_ws/build/turtlebot3/CMakeFiles/list_install_components.dir
-/home/shh/ssafy_gazeboy/ssafy_ws/build/turtlebot3/CMakeFiles/rebuild_cache.dir
-/home/shh/ssafy_gazeboy/ssafy_ws/build/turtlebot3/CMakeFiles/edit_cache.dir
-/home/shh/ssafy_gazeboy/ssafy_ws/build/turtlebot3/CMakeFiles/test.dir
-/home/shh/ssafy_gazeboy/ssafy_ws/build/turtlebot3/CMakeFiles/install/strip.dir
-/home/shh/ssafy_gazeboy/ssafy_ws/build/turtlebot3/CMakeFiles/turtlebot3_uninstall.dir
-/home/shh/ssafy_gazeboy/ssafy_ws/build/turtlebot3/CMakeFiles/uninstall.dir
