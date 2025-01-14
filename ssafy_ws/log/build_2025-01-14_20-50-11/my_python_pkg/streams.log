@@ -1,0 +1,17 @@
+[3.426s] Invoking command in '/home/shh/ssafy_ws/build/my_python_pkg': PYTHONPATH=/home/shh/ssafy_ws/build/my_python_pkg/prefix_override:/home/shh/ssafy_ws/install/my_python_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_ws/build/my_python_pkg/build --no-deps install_data
+[3.738s] running develop
+[4.029s] running egg_info
+[4.029s] writing my_python_pkg.egg-info/PKG-INFO
+[4.029s] writing dependency_links to my_python_pkg.egg-info/dependency_links.txt
+[4.030s] writing entry points to my_python_pkg.egg-info/entry_points.txt
+[4.030s] writing requirements to my_python_pkg.egg-info/requires.txt
+[4.031s] writing top-level names to my_python_pkg.egg-info/top_level.txt
+[4.068s] reading manifest file 'my_python_pkg.egg-info/SOURCES.txt'
+[4.069s] writing manifest file 'my_python_pkg.egg-info/SOURCES.txt'
+[4.116s] running build_ext
+[4.117s] Creating /home/shh/ssafy_ws/install/my_python_pkg/lib/python3.8/site-packages/my-python-pkg.egg-link (link to .)
+[4.117s] Installing my_node script to /home/shh/ssafy_ws/install/my_python_pkg/lib/my_python_pkg
+[4.118s] 
+[4.118s] Installed /home/shh/ssafy_ws/build/my_python_pkg
+[4.118s] running install_data
+[4.231s] Invoked command in '/home/shh/ssafy_ws/build/my_python_pkg' returned '0': PYTHONPATH=/home/shh/ssafy_ws/build/my_python_pkg/prefix_override:/home/shh/ssafy_ws/install/my_python_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_ws/build/my_python_pkg/build --no-deps install_data

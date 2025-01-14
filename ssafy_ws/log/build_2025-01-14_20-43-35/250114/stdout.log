@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating 250114.egg-info
+writing 250114.egg-info/PKG-INFO
+writing dependency_links to 250114.egg-info/dependency_links.txt
+writing entry points to 250114.egg-info/entry_points.txt
+writing requirements to 250114.egg-info/requires.txt
+writing top-level names to 250114.egg-info/top_level.txt
+writing manifest file '250114.egg-info/SOURCES.txt'
+reading manifest file '250114.egg-info/SOURCES.txt'
+writing manifest file '250114.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shh/ssafy_ws/install/250114/lib/python3.8/site-packages/site.py
+Creating /home/shh/ssafy_ws/install/250114/lib/python3.8/site-packages/250114.egg-link (link to .)
+
+Installed /home/shh/ssafy_ws/build/250114
+running install_data
+creating /home/shh/ssafy_ws/install/250114/share/ament_index
+creating /home/shh/ssafy_ws/install/250114/share/ament_index/resource_index
+creating /home/shh/ssafy_ws/install/250114/share/ament_index/resource_index/packages
+copying resource/250114 -> /home/shh/ssafy_ws/install/250114/share/ament_index/resource_index/packages
+copying package.xml -> /home/shh/ssafy_ws/install/250114/share/250114

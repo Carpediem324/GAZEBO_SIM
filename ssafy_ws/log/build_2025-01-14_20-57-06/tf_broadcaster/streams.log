@@ -1,0 +1,19 @@
+[3.038s] Invoking command in '/home/shh/ssafy_ws/build/tf_broadcaster': PYTHONPATH=/home/shh/ssafy_ws/build/tf_broadcaster/prefix_override:/home/shh/ssafy_ws/install/tf_broadcaster/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_ws/build/tf_broadcaster/build --no-deps install_data
+[3.314s] running develop
+[3.492s] running egg_info
+[3.492s] writing tf_broadcaster.egg-info/PKG-INFO
+[3.493s] writing dependency_links to tf_broadcaster.egg-info/dependency_links.txt
+[3.493s] writing entry points to tf_broadcaster.egg-info/entry_points.txt
+[3.493s] writing requirements to tf_broadcaster.egg-info/requires.txt
+[3.493s] writing top-level names to tf_broadcaster.egg-info/top_level.txt
+[3.540s] reading manifest file 'tf_broadcaster.egg-info/SOURCES.txt'
+[3.541s] writing manifest file 'tf_broadcaster.egg-info/SOURCES.txt'
+[3.573s] running build_ext
+[3.574s] Creating /home/shh/ssafy_ws/install/tf_broadcaster/lib/python3.8/site-packages/tf-broadcaster.egg-link (link to .)
+[3.574s] Installing tf_broadcaster script to /home/shh/ssafy_ws/install/tf_broadcaster/lib/tf_broadcaster
+[3.575s] Installing turtle_obstacle_marker script to /home/shh/ssafy_ws/install/tf_broadcaster/lib/tf_broadcaster
+[3.575s] Installing turtlesim_avoid_obstacle script to /home/shh/ssafy_ws/install/tf_broadcaster/lib/tf_broadcaster
+[3.575s] 
+[3.575s] Installed /home/shh/ssafy_ws/build/tf_broadcaster
+[3.576s] running install_data
+[3.697s] Invoked command in '/home/shh/ssafy_ws/build/tf_broadcaster' returned '0': PYTHONPATH=/home/shh/ssafy_ws/build/tf_broadcaster/prefix_override:/home/shh/ssafy_ws/install/tf_broadcaster/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_ws/build/tf_broadcaster/build --no-deps install_data

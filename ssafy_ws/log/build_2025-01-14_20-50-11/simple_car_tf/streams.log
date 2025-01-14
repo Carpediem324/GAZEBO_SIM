@@ -1,0 +1,17 @@
+[3.515s] Invoking command in '/home/shh/ssafy_ws/build/simple_car_tf': PYTHONPATH=/home/shh/ssafy_ws/build/simple_car_tf/prefix_override:/home/shh/ssafy_ws/install/simple_car_tf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_ws/build/simple_car_tf/build --no-deps install_data
+[3.844s] running develop
+[4.032s] running egg_info
+[4.033s] writing simple_car_tf.egg-info/PKG-INFO
+[4.033s] writing dependency_links to simple_car_tf.egg-info/dependency_links.txt
+[4.034s] writing entry points to simple_car_tf.egg-info/entry_points.txt
+[4.034s] writing requirements to simple_car_tf.egg-info/requires.txt
+[4.034s] writing top-level names to simple_car_tf.egg-info/top_level.txt
+[4.073s] reading manifest file 'simple_car_tf.egg-info/SOURCES.txt'
+[4.074s] writing manifest file 'simple_car_tf.egg-info/SOURCES.txt'
+[4.115s] running build_ext
+[4.116s] Creating /home/shh/ssafy_ws/install/simple_car_tf/lib/python3.8/site-packages/simple-car-tf.egg-link (link to .)
+[4.116s] Installing move_car script to /home/shh/ssafy_ws/install/simple_car_tf/lib/simple_car_tf
+[4.117s] 
+[4.117s] Installed /home/shh/ssafy_ws/build/simple_car_tf
+[4.117s] running install_data
+[4.263s] Invoked command in '/home/shh/ssafy_ws/build/simple_car_tf' returned '0': PYTHONPATH=/home/shh/ssafy_ws/build/simple_car_tf/prefix_override:/home/shh/ssafy_ws/install/simple_car_tf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_ws/build/simple_car_tf/build --no-deps install_data

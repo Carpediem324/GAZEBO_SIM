@@ -1,0 +1,71 @@
+[0.955s] Invoking command in '/home/shh/ssafy_ws/build/ssafy_publisher_subscriber': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/shh/ssafy_ws/src/ssafy_publisher_subscriber -DCMAKE_INSTALL_PREFIX=/home/shh/ssafy_ws/install/ssafy_publisher_subscriber
+[1.397s] -- The C compiler identification is GNU 9.4.0
+[1.397s] -- The CXX compiler identification is GNU 9.4.0
+[1.397s] -- Check for working C compiler: /usr/bin/cc
+[1.420s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.422s] -- Detecting C compiler ABI info
+[1.503s] -- Detecting C compiler ABI info - done
+[1.515s] -- Detecting C compile features
+[1.516s] -- Detecting C compile features - done
+[1.521s] -- Check for working CXX compiler: /usr/bin/c++
+[1.622s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.624s] -- Detecting CXX compiler ABI info
+[1.706s] -- Detecting CXX compiler ABI info - done
+[1.720s] -- Detecting CXX compile features
+[1.721s] -- Detecting CXX compile features - done
+[1.744s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.776s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.776s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.006s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.062s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.069s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.209s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.730s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.807s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.863s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.863s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.868s] -- Looking for pthread.h
+[2.964s] -- Looking for pthread.h - found
+[2.964s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.190s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.191s] -- Looking for pthread_create in pthreads
+[3.262s] -- Looking for pthread_create in pthreads - not found
+[3.262s] -- Looking for pthread_create in pthread
+[3.350s] -- Looking for pthread_create in pthread - found
+[3.352s] -- Found Threads: TRUE  
+[3.734s] -- Configuring done
+[3.745s] -- Generating done
+[3.746s] -- Build files have been written to: /home/shh/ssafy_ws/build/ssafy_publisher_subscriber
+[3.753s] Invoked command in '/home/shh/ssafy_ws/build/ssafy_publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/shh/ssafy_ws/src/ssafy_publisher_subscriber -DCMAKE_INSTALL_PREFIX=/home/shh/ssafy_ws/install/ssafy_publisher_subscriber
+[3.754s] Invoking command in '/home/shh/ssafy_ws/build/ssafy_publisher_subscriber': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shh/ssafy_ws/build/ssafy_publisher_subscriber -- -j16 -l16
+[3.807s] [35m[1mScanning dependencies of target ssafy_subscriber[0m
+[3.809s] [35m[1mScanning dependencies of target ssafy_publisher[0m
+[3.975s] [ 25%] [32mBuilding CXX object CMakeFiles/ssafy_publisher.dir/src/ssafy_publisher.cpp.o[0m
+[3.976s] [ 50%] [32mBuilding CXX object CMakeFiles/ssafy_subscriber.dir/src/ssafy_subscriber.cpp.o[0m
+[6.802s] [ 75%] [32m[1mLinking CXX executable ssafy_publisher[0m
+[6.991s] [ 75%] Built target ssafy_publisher
+[8.038s] [100%] [32m[1mLinking CXX executable ssafy_subscriber[0m
+[8.251s] [100%] Built target ssafy_subscriber
+[8.284s] Invoked command in '/home/shh/ssafy_ws/build/ssafy_publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shh/ssafy_ws/build/ssafy_publisher_subscriber -- -j16 -l16
+[8.337s] Invoking command in '/home/shh/ssafy_ws/build/ssafy_publisher_subscriber': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shh/ssafy_ws/build/ssafy_publisher_subscriber
+[8.350s] -- Install configuration: ""
+[8.350s] -- Installing: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/lib/ssafy_publisher_subscriber/ssafy_publisher
+[8.351s] -- Set runtime path of "/home/shh/ssafy_ws/install/ssafy_publisher_subscriber/lib/ssafy_publisher_subscriber/ssafy_publisher" to ""
+[8.352s] -- Installing: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/lib/ssafy_publisher_subscriber/ssafy_subscriber
+[8.354s] -- Set runtime path of "/home/shh/ssafy_ws/install/ssafy_publisher_subscriber/lib/ssafy_publisher_subscriber/ssafy_subscriber" to ""
+[8.354s] -- Installing: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ament_index/resource_index/package_run_dependencies/ssafy_publisher_subscriber
+[8.354s] -- Installing: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ament_index/resource_index/parent_prefix_path/ssafy_publisher_subscriber
+[8.354s] -- Installing: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/environment/ament_prefix_path.sh
+[8.355s] -- Installing: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/environment/ament_prefix_path.dsv
+[8.355s] -- Installing: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/environment/path.sh
+[8.355s] -- Installing: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/environment/path.dsv
+[8.355s] -- Installing: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/local_setup.bash
+[8.355s] -- Installing: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/local_setup.sh
+[8.356s] -- Installing: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/local_setup.zsh
+[8.356s] -- Installing: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/local_setup.dsv
+[8.356s] -- Installing: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/package.dsv
+[8.356s] -- Installing: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ament_index/resource_index/packages/ssafy_publisher_subscriber
+[8.356s] -- Installing: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/cmake/ssafy_publisher_subscriberConfig.cmake
+[8.357s] -- Installing: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/cmake/ssafy_publisher_subscriberConfig-version.cmake
+[8.357s] -- Installing: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/package.xml
+[8.358s] Invoked command in '/home/shh/ssafy_ws/build/ssafy_publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shh/ssafy_ws/build/ssafy_publisher_subscriber

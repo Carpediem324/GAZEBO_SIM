@@ -1,0 +1,17 @@
+[3.402s] Invoking command in '/home/shh/ssafy_ws/build/250114': PYTHONPATH=/home/shh/ssafy_ws/build/250114/prefix_override:/home/shh/ssafy_ws/install/250114/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_ws/build/250114/build --no-deps install_data
+[3.725s] running develop
+[4.003s] running egg_info
+[4.015s] writing 250114.egg-info/PKG-INFO
+[4.015s] writing dependency_links to 250114.egg-info/dependency_links.txt
+[4.016s] writing entry points to 250114.egg-info/entry_points.txt
+[4.017s] writing requirements to 250114.egg-info/requires.txt
+[4.017s] writing top-level names to 250114.egg-info/top_level.txt
+[4.050s] reading manifest file '250114.egg-info/SOURCES.txt'
+[4.051s] writing manifest file '250114.egg-info/SOURCES.txt'
+[4.107s] running build_ext
+[4.107s] Creating /home/shh/ssafy_ws/install/250114/lib/python3.8/site-packages/250114.egg-link (link to .)
+[4.108s] 
+[4.109s] Installed /home/shh/ssafy_ws/build/250114
+[4.109s] running install_data
+[4.110s] copying launch/spawn_velodyne.launch.py -> /home/shh/ssafy_ws/install/250114/share/250114/launch
+[4.247s] Invoked command in '/home/shh/ssafy_ws/build/250114' returned '0': PYTHONPATH=/home/shh/ssafy_ws/build/250114/prefix_override:/home/shh/ssafy_ws/install/250114/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_ws/build/250114/build --no-deps install_data

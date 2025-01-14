@@ -1,0 +1,25 @@
+[1.565s] Invoking command in '/home/shh/ssafy_ws/build/ssafy_publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shh/ssafy_ws/install/yolo_pkg:/home/shh/ssafy_ws/install/turtle_spawner:/home/shh/ssafy_ws/install/turtle_controller:/home/shh/ssafy_ws/install/tf_broadcaster:/home/shh/ssafy_ws/install/simple_subscriber:/home/shh/ssafy_ws/install/simple_publisher:/home/shh/ssafy_ws/install/simple_car_tf:/home/shh/ssafy_ws/install/my_python_pkg:/home/shh/ssafy_ws/install/250114:/opt/ros/foxy /usr/bin/cmake --build /home/shh/ssafy_ws/build/ssafy_publisher_subscriber -- -j16 -l16
+[2.394s] [ 50%] Built target ssafy_subscriber
+[2.394s] [100%] Built target ssafy_publisher
+[2.397s] Invoked command in '/home/shh/ssafy_ws/build/ssafy_publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shh/ssafy_ws/install/yolo_pkg:/home/shh/ssafy_ws/install/turtle_spawner:/home/shh/ssafy_ws/install/turtle_controller:/home/shh/ssafy_ws/install/tf_broadcaster:/home/shh/ssafy_ws/install/simple_subscriber:/home/shh/ssafy_ws/install/simple_publisher:/home/shh/ssafy_ws/install/simple_car_tf:/home/shh/ssafy_ws/install/my_python_pkg:/home/shh/ssafy_ws/install/250114:/opt/ros/foxy /usr/bin/cmake --build /home/shh/ssafy_ws/build/ssafy_publisher_subscriber -- -j16 -l16
+[2.756s] Invoking command in '/home/shh/ssafy_ws/build/ssafy_publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shh/ssafy_ws/install/yolo_pkg:/home/shh/ssafy_ws/install/turtle_spawner:/home/shh/ssafy_ws/install/turtle_controller:/home/shh/ssafy_ws/install/tf_broadcaster:/home/shh/ssafy_ws/install/simple_subscriber:/home/shh/ssafy_ws/install/simple_publisher:/home/shh/ssafy_ws/install/simple_car_tf:/home/shh/ssafy_ws/install/my_python_pkg:/home/shh/ssafy_ws/install/250114:/opt/ros/foxy /usr/bin/cmake --install /home/shh/ssafy_ws/build/ssafy_publisher_subscriber
+[2.774s] -- Install configuration: ""
+[2.775s] -- Execute custom install script
+[2.775s] -- Up-to-date symlink: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/lib/ssafy_publisher_subscriber/ssafy_publisher
+[2.776s] -- Up-to-date symlink: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/lib/ssafy_publisher_subscriber/ssafy_subscriber
+[2.776s] -- Up-to-date symlink: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ament_index/resource_index/package_run_dependencies/ssafy_publisher_subscriber
+[2.777s] -- Up-to-date symlink: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ament_index/resource_index/parent_prefix_path/ssafy_publisher_subscriber
+[2.777s] -- Up-to-date symlink: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/environment/ament_prefix_path.sh
+[2.777s] -- Up-to-date symlink: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/environment/ament_prefix_path.dsv
+[2.778s] -- Up-to-date symlink: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/environment/path.sh
+[2.778s] -- Up-to-date symlink: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/environment/path.dsv
+[2.778s] -- Up-to-date symlink: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/local_setup.bash
+[2.779s] -- Up-to-date symlink: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/local_setup.sh
+[2.779s] -- Up-to-date symlink: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/local_setup.zsh
+[2.780s] -- Up-to-date symlink: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/local_setup.dsv
+[2.780s] -- Symlinking: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/package.dsv
+[2.795s] -- Up-to-date symlink: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ament_index/resource_index/packages/ssafy_publisher_subscriber
+[2.795s] -- Up-to-date symlink: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/cmake/ssafy_publisher_subscriberConfig.cmake
+[2.796s] -- Up-to-date symlink: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/cmake/ssafy_publisher_subscriberConfig-version.cmake
+[2.796s] -- Up-to-date symlink: /home/shh/ssafy_ws/install/ssafy_publisher_subscriber/share/ssafy_publisher_subscriber/package.xml
+[2.802s] Invoked command in '/home/shh/ssafy_ws/build/ssafy_publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shh/ssafy_ws/install/yolo_pkg:/home/shh/ssafy_ws/install/turtle_spawner:/home/shh/ssafy_ws/install/turtle_controller:/home/shh/ssafy_ws/install/tf_broadcaster:/home/shh/ssafy_ws/install/simple_subscriber:/home/shh/ssafy_ws/install/simple_publisher:/home/shh/ssafy_ws/install/simple_car_tf:/home/shh/ssafy_ws/install/my_python_pkg:/home/shh/ssafy_ws/install/250114:/opt/ros/foxy /usr/bin/cmake --install /home/shh/ssafy_ws/build/ssafy_publisher_subscriber

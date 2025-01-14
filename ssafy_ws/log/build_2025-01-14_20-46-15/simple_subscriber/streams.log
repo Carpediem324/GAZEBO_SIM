@@ -1,0 +1,17 @@
+[3.310s] Invoking command in '/home/shh/ssafy_ws/build/simple_subscriber': PYTHONPATH=/home/shh/ssafy_ws/build/simple_subscriber/prefix_override:/home/shh/ssafy_ws/install/simple_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_ws/build/simple_subscriber/build --no-deps install_data
+[3.600s] running develop
+[3.784s] running egg_info
+[3.784s] writing simple_subscriber.egg-info/PKG-INFO
+[3.785s] writing dependency_links to simple_subscriber.egg-info/dependency_links.txt
+[3.785s] writing entry points to simple_subscriber.egg-info/entry_points.txt
+[3.785s] writing requirements to simple_subscriber.egg-info/requires.txt
+[3.785s] writing top-level names to simple_subscriber.egg-info/top_level.txt
+[3.816s] reading manifest file 'simple_subscriber.egg-info/SOURCES.txt'
+[3.816s] writing manifest file 'simple_subscriber.egg-info/SOURCES.txt'
+[3.856s] running build_ext
+[3.856s] Creating /home/shh/ssafy_ws/install/simple_subscriber/lib/python3.8/site-packages/simple-subscriber.egg-link (link to .)
+[3.857s] Installing simple_subscriber script to /home/shh/ssafy_ws/install/simple_subscriber/lib/simple_subscriber
+[3.858s] 
+[3.858s] Installed /home/shh/ssafy_ws/build/simple_subscriber
+[3.858s] running install_data
+[3.926s] Invoked command in '/home/shh/ssafy_ws/build/simple_subscriber' returned '0': PYTHONPATH=/home/shh/ssafy_ws/build/simple_subscriber/prefix_override:/home/shh/ssafy_ws/install/simple_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_ws/build/simple_subscriber/build --no-deps install_data

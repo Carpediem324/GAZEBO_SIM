@@ -1,0 +1,17 @@
+[3.446s] Invoking command in '/home/shh/ssafy_ws/build/simple_publisher': PYTHONPATH=/home/shh/ssafy_ws/build/simple_publisher/prefix_override:/home/shh/ssafy_ws/install/simple_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_ws/build/simple_publisher/build --no-deps install_data
+[3.797s] running develop
+[3.986s] running egg_info
+[3.987s] writing simple_publisher.egg-info/PKG-INFO
+[3.995s] writing dependency_links to simple_publisher.egg-info/dependency_links.txt
+[3.995s] writing entry points to simple_publisher.egg-info/entry_points.txt
+[3.995s] writing requirements to simple_publisher.egg-info/requires.txt
+[4.002s] writing top-level names to simple_publisher.egg-info/top_level.txt
+[4.020s] reading manifest file 'simple_publisher.egg-info/SOURCES.txt'
+[4.020s] writing manifest file 'simple_publisher.egg-info/SOURCES.txt'
+[4.069s] running build_ext
+[4.069s] Creating /home/shh/ssafy_ws/install/simple_publisher/lib/python3.8/site-packages/simple-publisher.egg-link (link to .)
+[4.069s] Installing simple_publisher script to /home/shh/ssafy_ws/install/simple_publisher/lib/simple_publisher
+[4.070s] 
+[4.070s] Installed /home/shh/ssafy_ws/build/simple_publisher
+[4.070s] running install_data
+[4.129s] Invoked command in '/home/shh/ssafy_ws/build/simple_publisher' returned '0': PYTHONPATH=/home/shh/ssafy_ws/build/simple_publisher/prefix_override:/home/shh/ssafy_ws/install/simple_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_ws/build/simple_publisher/build --no-deps install_data

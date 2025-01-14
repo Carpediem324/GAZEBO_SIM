@@ -1,0 +1,5 @@
+[console_scripts]
+tf_broadcaster = tf_broadcaster.tf_broadcaster:main
+turtle_obstacle_marker = tf_broadcaster.turtle_obstacle_marker:main
+turtlesim_avoid_obstacle = tf_broadcaster.turtlesim_avoid_obstacle:main
+

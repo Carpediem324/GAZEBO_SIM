@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/tf_broadcaster/tf_broadcaster.egg-info
+writing ../../build/tf_broadcaster/tf_broadcaster.egg-info/PKG-INFO
+writing dependency_links to ../../build/tf_broadcaster/tf_broadcaster.egg-info/dependency_links.txt
+writing entry points to ../../build/tf_broadcaster/tf_broadcaster.egg-info/entry_points.txt
+writing requirements to ../../build/tf_broadcaster/tf_broadcaster.egg-info/requires.txt
+writing top-level names to ../../build/tf_broadcaster/tf_broadcaster.egg-info/top_level.txt
+writing manifest file '../../build/tf_broadcaster/tf_broadcaster.egg-info/SOURCES.txt'
+reading manifest file '../../build/tf_broadcaster/tf_broadcaster.egg-info/SOURCES.txt'
+writing manifest file '../../build/tf_broadcaster/tf_broadcaster.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shh/ssafy_ws/build/tf_broadcaster/build
+creating /home/shh/ssafy_ws/build/tf_broadcaster/build/lib
+creating /home/shh/ssafy_ws/build/tf_broadcaster/build/lib/tf_broadcaster
+copying tf_broadcaster/turtle_obstacle_marker.py -> /home/shh/ssafy_ws/build/tf_broadcaster/build/lib/tf_broadcaster
+copying tf_broadcaster/tf_broadcaster.py -> /home/shh/ssafy_ws/build/tf_broadcaster/build/lib/tf_broadcaster
+copying tf_broadcaster/turtlesim_avoid_obstacle.py -> /home/shh/ssafy_ws/build/tf_broadcaster/build/lib/tf_broadcaster
+copying tf_broadcaster/__init__.py -> /home/shh/ssafy_ws/build/tf_broadcaster/build/lib/tf_broadcaster
+running install
+running install_lib
+creating /home/shh/ssafy_ws/install/tf_broadcaster/lib/python3.8/site-packages/tf_broadcaster
+copying /home/shh/ssafy_ws/build/tf_broadcaster/build/lib/tf_broadcaster/turtle_obstacle_marker.py -> /home/shh/ssafy_ws/install/tf_broadcaster/lib/python3.8/site-packages/tf_broadcaster
+copying /home/shh/ssafy_ws/build/tf_broadcaster/build/lib/tf_broadcaster/tf_broadcaster.py -> /home/shh/ssafy_ws/install/tf_broadcaster/lib/python3.8/site-packages/tf_broadcaster
+copying /home/shh/ssafy_ws/build/tf_broadcaster/build/lib/tf_broadcaster/turtlesim_avoid_obstacle.py -> /home/shh/ssafy_ws/install/tf_broadcaster/lib/python3.8/site-packages/tf_broadcaster
+copying /home/shh/ssafy_ws/build/tf_broadcaster/build/lib/tf_broadcaster/__init__.py -> /home/shh/ssafy_ws/install/tf_broadcaster/lib/python3.8/site-packages/tf_broadcaster
+byte-compiling /home/shh/ssafy_ws/install/tf_broadcaster/lib/python3.8/site-packages/tf_broadcaster/turtle_obstacle_marker.py to turtle_obstacle_marker.cpython-38.pyc
+byte-compiling /home/shh/ssafy_ws/install/tf_broadcaster/lib/python3.8/site-packages/tf_broadcaster/tf_broadcaster.py to tf_broadcaster.cpython-38.pyc
+byte-compiling /home/shh/ssafy_ws/install/tf_broadcaster/lib/python3.8/site-packages/tf_broadcaster/turtlesim_avoid_obstacle.py to turtlesim_avoid_obstacle.cpython-38.pyc
+byte-compiling /home/shh/ssafy_ws/install/tf_broadcaster/lib/python3.8/site-packages/tf_broadcaster/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/shh/ssafy_ws/install/tf_broadcaster/share/ament_index
+creating /home/shh/ssafy_ws/install/tf_broadcaster/share/ament_index/resource_index
+creating /home/shh/ssafy_ws/install/tf_broadcaster/share/ament_index/resource_index/packages
+copying resource/tf_broadcaster -> /home/shh/ssafy_ws/install/tf_broadcaster/share/ament_index/resource_index/packages
+copying package.xml -> /home/shh/ssafy_ws/install/tf_broadcaster/share/tf_broadcaster
+running install_egg_info
+Copying ../../build/tf_broadcaster/tf_broadcaster.egg-info to /home/shh/ssafy_ws/install/tf_broadcaster/lib/python3.8/site-packages/tf_broadcaster-0.0.0-py3.8.egg-info
+running install_scripts
+Installing tf_broadcaster script to /home/shh/ssafy_ws/install/tf_broadcaster/lib/tf_broadcaster
+Installing turtle_obstacle_marker script to /home/shh/ssafy_ws/install/tf_broadcaster/lib/tf_broadcaster
+Installing turtlesim_avoid_obstacle script to /home/shh/ssafy_ws/install/tf_broadcaster/lib/tf_broadcaster
+writing list of installed files to '/home/shh/ssafy_ws/build/tf_broadcaster/install.log'

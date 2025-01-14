@@ -1,0 +1,24 @@
+[3.243s] Invoking command in '/home/shh/ssafy_ws/build/250114': PYTHONPATH=/home/shh/ssafy_ws/build/250114/prefix_override:/home/shh/ssafy_ws/install/250114/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_ws/build/250114/build --no-deps install_data
+[3.513s] running develop
+[3.693s] running egg_info
+[3.694s] creating 250114.egg-info
+[3.694s] writing 250114.egg-info/PKG-INFO
+[3.695s] writing dependency_links to 250114.egg-info/dependency_links.txt
+[3.695s] writing entry points to 250114.egg-info/entry_points.txt
+[3.695s] writing requirements to 250114.egg-info/requires.txt
+[3.695s] writing top-level names to 250114.egg-info/top_level.txt
+[3.696s] writing manifest file '250114.egg-info/SOURCES.txt'
+[3.738s] reading manifest file '250114.egg-info/SOURCES.txt'
+[3.739s] writing manifest file '250114.egg-info/SOURCES.txt'
+[3.803s] running build_ext
+[3.804s] Creating /home/shh/ssafy_ws/install/250114/lib/python3.8/site-packages/site.py
+[3.806s] Creating /home/shh/ssafy_ws/install/250114/lib/python3.8/site-packages/250114.egg-link (link to .)
+[3.807s] 
+[3.808s] Installed /home/shh/ssafy_ws/build/250114
+[3.808s] running install_data
+[3.808s] creating /home/shh/ssafy_ws/install/250114/share/ament_index
+[3.808s] creating /home/shh/ssafy_ws/install/250114/share/ament_index/resource_index
+[3.808s] creating /home/shh/ssafy_ws/install/250114/share/ament_index/resource_index/packages
+[3.808s] copying resource/250114 -> /home/shh/ssafy_ws/install/250114/share/ament_index/resource_index/packages
+[3.808s] copying package.xml -> /home/shh/ssafy_ws/install/250114/share/250114
+[3.910s] Invoked command in '/home/shh/ssafy_ws/build/250114' returned '0': PYTHONPATH=/home/shh/ssafy_ws/build/250114/prefix_override:/home/shh/ssafy_ws/install/250114/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shh/ssafy_ws/build/250114/build --no-deps install_data
