@@ -37,5 +37,5 @@ export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/shh/ssafy_gazeboy/ssafy_ws/src
 
 ## 아래명령어로 실행하면 실행됨. 에러는 무시해도되고 ros2 topic 보면 해결됨.
 ```
-ros2 launch turtlebot3_gazebo turtlebot3_velodyne_burger.launch.py 
+ros2 launch turtlebot3_gazebo tb3_imu_lidar_gps_burger.launch.py
 ```
