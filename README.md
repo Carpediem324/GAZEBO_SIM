@@ -29,7 +29,7 @@ Gazebo에서 센서를 사용하는 방법에 대한 지침은 저장소에 제�
 
 ---
 
-## bashrc에 추가해야함.모델경로 환경변수로
+## bashrc에 추가해야함.모델경로 환경변수로 넣어야하는데 자기꺼에 맞게 수정
 ```
 export TURTLEBOT3_MODEL=burger	
 export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/shh/ssafy_gazeboy/ssafy_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/
