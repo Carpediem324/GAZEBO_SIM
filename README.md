@@ -24,6 +24,7 @@ export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/ubuntu/GAZEBO_SIM/ssafy_ws/src
 
 ### 예시
 ```bash
+echo 'export ROS_DOMAIN_ID=30 # TURTLEBOT3' >> ~/.bashrc
 echo 'export TURTLEBOT3_MODEL=burger' >> ~/.bashrc
 echo 'export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/ubuntu/GAZEBO_SIM/ssafy_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/' >> ~/.bashrc
 source ~/.bashrc
@@ -48,3 +49,38 @@ conda install -c auto catkin_pkg
 ```bash
 pip install catkin_pkg
 ```
+
+## 2. Failed   <<< velodyne_gazebo_plugins [33.2s, exited with code 2]
+
+### 벨로다인 패키지 설치
+```bash
+sudo apt install ros-humble-velodyne*
+```
+
+```bash
+sudo apt install mrpt-apps
+```
+```bash
+velodyne-view
+```
+
+### 테스트
+```bash
+ros2 launch velodyne_description example.launch.py
+```
+
+### 가제보 추가파일 설치
+```bash
+sudo apt-get install ros-humble-gazebo-*
+sudo apt install ros-humble-cartographer
+sudo apt install ros-humble-cartographer-ros
+sudo apt install ros-humble-navigation2
+sudo apt install ros-humble-nav2-bringup
+```
+
+```bash
+sudo apt install ros-humble-dynamixel-sdk
+sudo apt install ros-humble-turtlebot3-msgs
+sudo apt install ros-humble-turtlebot3
+```
+
