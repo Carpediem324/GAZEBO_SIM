@@ -1,1 +1,0 @@
-/home/shh/ssafy_gazeboy/ssafy_ws/build/velodyne_gazebo_plugins/ament_cmake_environment_hooks/local_setup.sh
