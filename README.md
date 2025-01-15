@@ -7,7 +7,7 @@ git clone https://github.com/Carpediem324/GAZEBO_SIM.git
 
 ## 2. 빌드
 ```bash
-cd ssafy_ws && colcon build
+cd ~/GAZEBO_SIM/ssafy_ws && colcon build
 ```
 
 ## 3. 소싱
@@ -32,4 +32,19 @@ source ~/.bashrc
 ## 5. 실행
 ```bash
 ros2 launch turtlebot3_gazebo tb3_imu_lidar_gps_burger.launch.py
+```
+
+
+# Trouble Shooting
+
+## 1. No module named 'catkin_pkg'
+
+### 1) Conda를 사용하는 경우
+```bash
+conda install -c auto catkin_pkg
+```
+
+### 2) 일반 환경
+```bash
+pip install catkin_pkg
 ```

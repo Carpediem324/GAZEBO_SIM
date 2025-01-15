@@ -1,0 +1,280 @@
+[0.000000] (-) TimerEvent: {}
+[0.000308] (teleop_twist_keyboard) JobQueued: {'identifier': 'teleop_twist_keyboard', 'dependencies': OrderedDict()}
+[0.000327] (turtlebot3_description) JobQueued: {'identifier': 'turtlebot3_description', 'dependencies': OrderedDict()}
+[0.000338] (velodyne_description) JobQueued: {'identifier': 'velodyne_description', 'dependencies': OrderedDict()}
+[0.000347] (velodyne_gazebo_plugins) JobQueued: {'identifier': 'velodyne_gazebo_plugins', 'dependencies': OrderedDict()}
+[0.000355] (velodyne_simulator) JobQueued: {'identifier': 'velodyne_simulator', 'dependencies': OrderedDict([('velodyne_description', '/home/ubuntu/GAZEBO_SIM/ssafy_ws/install/velodyne_description'), ('velodyne_gazebo_plugins', '/home/ubuntu/GAZEBO_SIM/ssafy_ws/install/velodyne_gazebo_plugins')])}
+[0.000368] (velodyne_description) JobStarted: {'identifier': 'velodyne_description'}
+[0.007271] (velodyne_gazebo_plugins) JobStarted: {'identifier': 'velodyne_gazebo_plugins'}
+[0.008780] (teleop_twist_keyboard) JobStarted: {'identifier': 'teleop_twist_keyboard'}
+[0.012137] (turtlebot3_description) JobStarted: {'identifier': 'turtlebot3_description'}
+[0.014824] (velodyne_description) JobProgress: {'identifier': 'velodyne_description', 'progress': 'cmake'}
+[0.015121] (velodyne_description) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/GAZEBO_SIM/ssafy_ws/src/velodyne_simulator/velodyne_description', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/GAZEBO_SIM/ssafy_ws/install/velodyne_description'], 'cwd': '/home/ubuntu/GAZEBO_SIM/ssafy_ws/build/velodyne_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(isaaclab)'), ('LANGUAGE', 'en_US:en'), ('USER', 'ubuntu'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1018'), ('SYSTEMD_EXEC_PID', '1440'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6352'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:10948'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/anaconda3/envs/isaaclab/bin:/home/ubuntu/anaconda3/condabin:/home/ubuntu/anaconda3/bin:/home/ubuntu/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-760XDA:@/tmp/.ICE-unix/1417,unix/ubuntu-760XDA:/tmp/.ICE-unix/1417'), ('INVOCATION_ID', 'cf644bb4e68948a9805a9455de93c097'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CONDA_PREFIX_1', '/home/ubuntu/anaconda3'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ubuntu/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:7506de81-2e0e-43b0-a3a7-c16ccdcbc6cf'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'isaaclab'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/GAZEBO_SIM/ssafy_ws/build/velodyne_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ubuntu/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CONDA_PREFIX', '/home/ubuntu/anaconda3/envs/isaaclab'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.017374] (velodyne_gazebo_plugins) JobProgress: {'identifier': 'velodyne_gazebo_plugins', 'progress': 'cmake'}
+[0.017641] (velodyne_gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/GAZEBO_SIM/ssafy_ws/src/velodyne_simulator/velodyne_gazebo_plugins', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/GAZEBO_SIM/ssafy_ws/install/velodyne_gazebo_plugins'], 'cwd': '/home/ubuntu/GAZEBO_SIM/ssafy_ws/build/velodyne_gazebo_plugins', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(isaaclab)'), ('LANGUAGE', 'en_US:en'), ('USER', 'ubuntu'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1018'), ('SYSTEMD_EXEC_PID', '1440'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6352'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:10948'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/anaconda3/envs/isaaclab/bin:/home/ubuntu/anaconda3/condabin:/home/ubuntu/anaconda3/bin:/home/ubuntu/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-760XDA:@/tmp/.ICE-unix/1417,unix/ubuntu-760XDA:/tmp/.ICE-unix/1417'), ('INVOCATION_ID', 'cf644bb4e68948a9805a9455de93c097'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CONDA_PREFIX_1', '/home/ubuntu/anaconda3'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ubuntu/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:7506de81-2e0e-43b0-a3a7-c16ccdcbc6cf'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'isaaclab'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/GAZEBO_SIM/ssafy_ws/build/velodyne_gazebo_plugins'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ubuntu/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CONDA_PREFIX', '/home/ubuntu/anaconda3/envs/isaaclab'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099832] (-) TimerEvent: {}
+[0.184488] (velodyne_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.184969] (velodyne_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.185063] (velodyne_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.185256] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.185694] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.185736] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.185865] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'cmake'}
+[0.186326] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/GAZEBO_SIM/ssafy_ws/src/turtlebot3_description', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/GAZEBO_SIM/ssafy_ws/install/turtlebot3_description'], 'cwd': '/home/ubuntu/GAZEBO_SIM/ssafy_ws/build/turtlebot3_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(isaaclab)'), ('LANGUAGE', 'en_US:en'), ('USER', 'ubuntu'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1018'), ('SYSTEMD_EXEC_PID', '1440'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6352'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:10948'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/anaconda3/envs/isaaclab/bin:/home/ubuntu/anaconda3/condabin:/home/ubuntu/anaconda3/bin:/home/ubuntu/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-760XDA:@/tmp/.ICE-unix/1417,unix/ubuntu-760XDA:/tmp/.ICE-unix/1417'), ('INVOCATION_ID', 'cf644bb4e68948a9805a9455de93c097'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CONDA_PREFIX_1', '/home/ubuntu/anaconda3'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ubuntu/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:7506de81-2e0e-43b0-a3a7-c16ccdcbc6cf'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'isaaclab'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/GAZEBO_SIM/ssafy_ws/build/turtlebot3_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ubuntu/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CONDA_PREFIX', '/home/ubuntu/anaconda3/envs/isaaclab'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199946] (-) TimerEvent: {}
+[0.220323] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.220453] (velodyne_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.230507] (velodyne_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.230697] (turtlebot3_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.230912] (velodyne_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.231010] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.231299] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.231708] (velodyne_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.231818] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.235764] (velodyne_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.235807] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.275501] (turtlebot3_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.281033] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.298208] (velodyne_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.300017] (-) TimerEvent: {}
+[0.302332] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.305119] (velodyne_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.305377] (velodyne_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.305811] (velodyne_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.308611] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.308838] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.309256] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.310375] (velodyne_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.310784] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.331559] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.337343] (turtlebot3_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.337509] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.337816] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.340558] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400133] (-) TimerEvent: {}
+[0.401717] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.409190] (turtlebot3_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.409394] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.409744] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.411640] (turtlebot3_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500236] (-) TimerEvent: {}
+[0.581449] (teleop_twist_keyboard) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/teleop_twist_keyboard', 'build', '--build-base', '/home/ubuntu/GAZEBO_SIM/ssafy_ws/build/teleop_twist_keyboard/build', 'install', '--record', '/home/ubuntu/GAZEBO_SIM/ssafy_ws/build/teleop_twist_keyboard/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/GAZEBO_SIM/ssafy_ws/src/teleop_twist_keyboard', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(isaaclab)', 'LANGUAGE': 'en_US:en', 'USER': 'ubuntu', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'CONDA_SHLVL': '2', 'OLDPWD': '/home/ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1018', 'SYSTEMD_EXEC_PID': '1440', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6352', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '8:10948', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/ubuntu/anaconda3/envs/isaaclab/bin:/home/ubuntu/anaconda3/condabin:/home/ubuntu/anaconda3/bin:/home/ubuntu/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-760XDA:@/tmp/.ICE-unix/1417,unix/ubuntu-760XDA:/tmp/.ICE-unix/1417', 'INVOCATION_ID': 'cf644bb4e68948a9805a9455de93c097', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'CONDA_PREFIX_1': '/home/ubuntu/anaconda3', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/ubuntu/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:7506de81-2e0e-43b0-a3a7-c16ccdcbc6cf', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'isaaclab', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/GAZEBO_SIM/ssafy_ws/build/teleop_twist_keyboard', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/ubuntu/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/GAZEBO_SIM/ssafy_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/GAZEBO_SIM/ssafy_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'CONDA_PREFIX': '/home/ubuntu/anaconda3/envs/isaaclab', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.600337] (-) TimerEvent: {}
+[0.680655] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found Python3: /home/ubuntu/anaconda3/envs/isaaclab/bin/python3 (found version "3.10.16") found components: Interpreter \n'}
+[0.680905] (velodyne_description) StdoutLine: {'line': b'-- Found Python3: /home/ubuntu/anaconda3/envs/isaaclab/bin/python3 (found version "3.10.16") found components: Interpreter \n'}
+[0.700451] (-) TimerEvent: {}
+[0.723118] (turtlebot3_description) StdoutLine: {'line': b'-- Found Python3: /home/ubuntu/anaconda3/envs/isaaclab/bin/python3 (found version "3.10.16") found components: Interpreter \n'}
+[0.763522] (teleop_twist_keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[0.763920] (teleop_twist_keyboard) StdoutLine: {'line': b'creating ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info\n'}
+[0.764064] (teleop_twist_keyboard) StdoutLine: {'line': b'writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO\n'}
+[0.764252] (teleop_twist_keyboard) StdoutLine: {'line': b'writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt\n'}
+[0.764346] (teleop_twist_keyboard) StdoutLine: {'line': b'writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt\n'}
+[0.764418] (teleop_twist_keyboard) StdoutLine: {'line': b'writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt\n'}
+[0.764500] (teleop_twist_keyboard) StdoutLine: {'line': b'writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt\n'}
+[0.764625] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[0.765809] (teleop_twist_keyboard) StdoutLine: {'line': b"reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[0.765930] (teleop_twist_keyboard) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.766512] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[0.766594] (teleop_twist_keyboard) StdoutLine: {'line': b'running build\n'}
+[0.766678] (teleop_twist_keyboard) StdoutLine: {'line': b'running build_py\n'}
+[0.766778] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/ubuntu/GAZEBO_SIM/ssafy_ws/build/teleop_twist_keyboard/build\n'}
+[0.766834] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/ubuntu/GAZEBO_SIM/ssafy_ws/build/teleop_twist_keyboard/build/lib\n'}
+[0.766886] (teleop_twist_keyboard) StdoutLine: {'line': b'copying teleop_twist_keyboard.py -> /home/ubuntu/GAZEBO_SIM/ssafy_ws/build/teleop_twist_keyboard/build/lib\n'}
+[0.766986] (teleop_twist_keyboard) StdoutLine: {'line': b'running install\n'}
+[0.767116] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_lib\n'}
+[0.767791] (teleop_twist_keyboard) StdoutLine: {'line': b'copying /home/ubuntu/GAZEBO_SIM/ssafy_ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /home/ubuntu/GAZEBO_SIM/ssafy_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages\n'}
+[0.767961] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)\n'}
+[0.768186] (teleop_twist_keyboard) StdoutLine: {'line': b'byte-compiling /home/ubuntu/GAZEBO_SIM/ssafy_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-310.pyc\n'}
+[0.769014] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_data\n'}
+[0.769073] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/ubuntu/GAZEBO_SIM/ssafy_ws/install/teleop_twist_keyboard/share/ament_index\n'}
+[0.769133] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/ubuntu/GAZEBO_SIM/ssafy_ws/install/teleop_twist_keyboard/share/ament_index/resource_index\n'}
+[0.769171] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/ubuntu/GAZEBO_SIM/ssafy_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages\n'}
+[0.769233] (teleop_twist_keyboard) StdoutLine: {'line': b'copying resource/teleop_twist_keyboard -> /home/ubuntu/GAZEBO_SIM/ssafy_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages\n'}
+[0.769267] (teleop_twist_keyboard) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/GAZEBO_SIM/ssafy_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard\n'}
+[0.769302] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.770682] (teleop_twist_keyboard) StdoutLine: {'line': b'Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/ubuntu/GAZEBO_SIM/ssafy_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.3.2-py3.10.egg-info\n'}
+[0.771268] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_scripts\n'}
+[0.777190] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.780365] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.787700] (velodyne_description) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.787823] (velodyne_description) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>\n'}
+[0.787903] (velodyne_description) StderrLine: {'line': b'    from catkin_pkg.package import parse_package_string\n'}
+[0.787941] (velodyne_description) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[0.787973] (teleop_twist_keyboard) StdoutLine: {'line': b'Installing teleop_twist_keyboard script to /home/ubuntu/GAZEBO_SIM/ssafy_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard\n'}
+[0.788042] (teleop_twist_keyboard) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/GAZEBO_SIM/ssafy_ws/build/teleop_twist_keyboard/install.log'\n"}
+[0.789348] (velodyne_gazebo_plugins) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[0.791848] (velodyne_description) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[0.792005] (velodyne_description) StderrLine: {'line': b'  execute_process(/home/ubuntu/anaconda3/envs/isaaclab/bin/python3\n'}
+[0.792043] (velodyne_description) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[0.792076] (velodyne_description) StderrLine: {'line': b'  /home/ubuntu/GAZEBO_SIM/ssafy_ws/src/velodyne_simulator/velodyne_description/package.xml\n'}
+[0.792108] (velodyne_description) StderrLine: {'line': b'  /home/ubuntu/GAZEBO_SIM/ssafy_ws/build/velodyne_description/ament_cmake_core/package.cmake)\n'}
+[0.792138] (velodyne_description) StderrLine: {'line': b'  returned error code 1\n'}
+[0.792169] (velodyne_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.792199] (velodyne_description) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[0.792230] (velodyne_description) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[0.792259] (velodyne_description) StderrLine: {'line': b'  CMakeLists.txt:12 (ament_package)\n'}
+[0.792287] (velodyne_description) StderrLine: {'line': b'\n'}
+[0.792316] (velodyne_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.792345] (velodyne_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.792379] (velodyne_description) StdoutLine: {'line': b'See also "/home/ubuntu/GAZEBO_SIM/ssafy_ws/build/velodyne_description/CMakeFiles/CMakeOutput.log".\n'}
+[0.793045] (turtlebot3_description) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[0.796089] (velodyne_description) CommandEnded: {'returncode': 1}
+[0.800552] (-) TimerEvent: {}
+[0.816965] (velodyne_description) JobEnded: {'identifier': 'velodyne_description', 'rc': 1}
+[0.817691] (teleop_twist_keyboard) JobEnded: {'identifier': 'teleop_twist_keyboard', 'rc': 'SIGINT'}
+[0.853738] (turtlebot3_description) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.853896] (turtlebot3_description) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>\n'}
+[0.853950] (turtlebot3_description) StderrLine: {'line': b'    from catkin_pkg.package import parse_package_string\n'}
+[0.853993] (turtlebot3_description) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[0.856470] (turtlebot3_description) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[0.856563] (turtlebot3_description) StderrLine: {'line': b'  execute_process(/home/ubuntu/anaconda3/envs/isaaclab/bin/python3\n'}
+[0.856628] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[0.856661] (turtlebot3_description) StderrLine: {'line': b'  /home/ubuntu/GAZEBO_SIM/ssafy_ws/src/turtlebot3_description/package.xml\n'}
+[0.856692] (turtlebot3_description) StderrLine: {'line': b'  /home/ubuntu/GAZEBO_SIM/ssafy_ws/build/turtlebot3_description/ament_cmake_core/package.cmake)\n'}
+[0.856723] (turtlebot3_description) StderrLine: {'line': b'  returned error code 1\n'}
+[0.856753] (turtlebot3_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.856784] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[0.856812] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[0.856841] (turtlebot3_description) StderrLine: {'line': b'  CMakeLists.txt:31 (ament_package)\n'}
+[0.856870] (turtlebot3_description) StderrLine: {'line': b'\n'}
+[0.856905] (turtlebot3_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.856938] (turtlebot3_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.856980] (turtlebot3_description) StdoutLine: {'line': b'See also "/home/ubuntu/GAZEBO_SIM/ssafy_ws/build/turtlebot3_description/CMakeFiles/CMakeOutput.log".\n'}
+[0.859636] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[0.861221] (turtlebot3_description) JobEnded: {'identifier': 'turtlebot3_description', 'rc': 'SIGINT'}
+[0.886573] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[0.900646] (-) TimerEvent: {}
+[0.906611] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.000756] (-) TimerEvent: {}
+[1.022282] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found Boost: /home/ubuntu/anaconda3/lib/cmake/Boost-1.82.0/BoostConfig.cmake (found suitable version "1.82.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.056736] (velodyne_gazebo_plugins) StderrLine: {'line': b'\x1b[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindProtobuf.cmake:524 (message):\n'}
+[1.056854] (velodyne_gazebo_plugins) StderrLine: {'line': b"  Protobuf compiler version 25.3 doesn't match library version 3.12.4\n"}
+[1.056898] (velodyne_gazebo_plugins) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.056935] (velodyne_gazebo_plugins) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:203 (find_package)\n'}
+[1.056966] (velodyne_gazebo_plugins) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)\n'}
+[1.056995] (velodyne_gazebo_plugins) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)\n'}
+[1.057025] (velodyne_gazebo_plugins) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[1.057053] (velodyne_gazebo_plugins) StderrLine: {'line': b'\n'}
+[1.057082] (velodyne_gazebo_plugins) StderrLine: {'line': b'\x1b[0m\n'}
+[1.057466] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.063241] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.070794] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.072496] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.072628] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.075614] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.082076] (velodyne_gazebo_plugins) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.098654] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.100830] (-) TimerEvent: {}
+[1.104530] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.110650] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.113747] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.113814] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.116710] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.116777] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.119462] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.119527] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.122191] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.122258] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.125211] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.125275] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.128087] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.188891] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.192030] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.192239] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.200966] (-) TimerEvent: {}
+[1.205507] (velodyne_gazebo_plugins) StderrLine: {'line': b'\x1b[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindProtobuf.cmake:524 (message):\n'}
+[1.205577] (velodyne_gazebo_plugins) StderrLine: {'line': b"  Protobuf compiler version 25.3 doesn't match library version 3.12.4\n"}
+[1.205612] (velodyne_gazebo_plugins) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.205643] (velodyne_gazebo_plugins) StderrLine: {'line': b'  /usr/share/cmake/ignition-cmake2/cmake2/FindIgnProtobuf.cmake:34 (find_package)\n'}
+[1.205673] (velodyne_gazebo_plugins) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/ignition-transport8/ignition-transport8-config.cmake:92 (find_package)\n'}
+[1.205702] (velodyne_gazebo_plugins) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:235 (find_package)\n'}
+[1.205731] (velodyne_gazebo_plugins) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)\n'}
+[1.205760] (velodyne_gazebo_plugins) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)\n'}
+[1.205789] (velodyne_gazebo_plugins) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[1.205818] (velodyne_gazebo_plugins) StderrLine: {'line': b'\n'}
+[1.205847] (velodyne_gazebo_plugins) StderrLine: {'line': b'\x1b[0m\n'}
+[1.206127] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.211882] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.218562] (velodyne_gazebo_plugins) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.235621] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.238323] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.238518] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.251043] (velodyne_gazebo_plugins) StderrLine: {'line': b'\x1b[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindProtobuf.cmake:524 (message):\n'}
+[1.251116] (velodyne_gazebo_plugins) StderrLine: {'line': b"  Protobuf compiler version 25.3 doesn't match library version 3.12.4\n"}
+[1.251152] (velodyne_gazebo_plugins) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.251182] (velodyne_gazebo_plugins) StderrLine: {'line': b'  /usr/share/cmake/ignition-cmake2/cmake2/FindIgnProtobuf.cmake:34 (find_package)\n'}
+[1.251211] (velodyne_gazebo_plugins) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/ignition-msgs5/ignition-msgs5-config.cmake:92 (find_package)\n'}
+[1.251241] (velodyne_gazebo_plugins) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/ignition-transport8/ignition-transport8-config.cmake:96 (find_package)\n'}
+[1.251269] (velodyne_gazebo_plugins) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:235 (find_package)\n'}
+[1.251299] (velodyne_gazebo_plugins) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)\n'}
+[1.251327] (velodyne_gazebo_plugins) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)\n'}
+[1.251357] (velodyne_gazebo_plugins) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[1.251386] (velodyne_gazebo_plugins) StderrLine: {'line': b'\n'}
+[1.251415] (velodyne_gazebo_plugins) StderrLine: {'line': b'\x1b[0m\n'}
+[1.252242] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.255189] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.261824] (velodyne_gazebo_plugins) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.281285] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.285122] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.285320] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.285720] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.286387] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.287186] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.295030] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[1.295559] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.298154] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.298269] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.298486] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.301034] (-) TimerEvent: {}
+[1.301676] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.301856] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.343634] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.349903] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.356424] (velodyne_gazebo_plugins) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.373967] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.378092] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.384844] (velodyne_gazebo_plugins) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.401109] (-) TimerEvent: {}
+[1.401238] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.401412] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.401730] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.402046] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.405815] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[1.406015] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[1.412808] (velodyne_gazebo_plugins) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[1.431830] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[1.467122] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.471533] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.479260] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.491502] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.501176] (-) TimerEvent: {}
+[1.504368] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.541283] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.543878] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.564480] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.572334] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.601243] (-) TimerEvent: {}
+[1.614312] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[1.656934] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.691058] (velodyne_gazebo_plugins) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.691150] (velodyne_gazebo_plugins) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>\n'}
+[1.691186] (velodyne_gazebo_plugins) StderrLine: {'line': b'    from catkin_pkg.package import parse_package_string\n'}
+[1.691216] (velodyne_gazebo_plugins) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[1.693359] (velodyne_gazebo_plugins) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[1.693426] (velodyne_gazebo_plugins) StderrLine: {'line': b'  execute_process(/home/ubuntu/anaconda3/envs/isaaclab/bin/python3\n'}
+[1.693465] (velodyne_gazebo_plugins) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[1.693498] (velodyne_gazebo_plugins) StderrLine: {'line': b'  /home/ubuntu/GAZEBO_SIM/ssafy_ws/src/velodyne_simulator/velodyne_gazebo_plugins/package.xml\n'}
+[1.693560] (velodyne_gazebo_plugins) StderrLine: {'line': b'  /home/ubuntu/GAZEBO_SIM/ssafy_ws/build/velodyne_gazebo_plugins/ament_cmake_core/package.cmake)\n'}
+[1.693590] (velodyne_gazebo_plugins) StderrLine: {'line': b'  returned error code 1\n'}
+[1.693619] (velodyne_gazebo_plugins) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.693647] (velodyne_gazebo_plugins) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[1.693677] (velodyne_gazebo_plugins) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[1.693707] (velodyne_gazebo_plugins) StderrLine: {'line': b'  CMakeLists.txt:51 (ament_package)\n'}
+[1.693736] (velodyne_gazebo_plugins) StderrLine: {'line': b'\n'}
+[1.693765] (velodyne_gazebo_plugins) StderrLine: {'line': b'\x1b[0m\n'}
+[1.693793] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.693829] (velodyne_gazebo_plugins) StdoutLine: {'line': b'See also "/home/ubuntu/GAZEBO_SIM/ssafy_ws/build/velodyne_gazebo_plugins/CMakeFiles/CMakeOutput.log".\n'}
+[1.701334] (velodyne_gazebo_plugins) JobEnded: {'identifier': 'velodyne_gazebo_plugins', 'rc': 'SIGINT'}
+[1.701568] (-) TimerEvent: {}
+[1.711804] (velodyne_simulator) JobSkipped: {'identifier': 'velodyne_simulator'}
+[1.711890] (-) EventReactorShutdown: {}

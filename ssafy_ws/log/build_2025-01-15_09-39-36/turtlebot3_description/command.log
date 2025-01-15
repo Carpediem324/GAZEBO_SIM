@@ -1,0 +1,1 @@
+Invoking command in '/home/ubuntu/GAZEBO_SIM/ssafy_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(isaaclab) /usr/bin/cmake /home/ubuntu/GAZEBO_SIM/ssafy_ws/src/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/ubuntu/GAZEBO_SIM/ssafy_ws/install/turtlebot3_description
