@@ -52,6 +52,10 @@ pip install catkin_pkg
 
 ## 2. Failed   <<< velodyne_gazebo_plugins [33.2s, exited with code 2]
 
+### conda랑 충돌남
+~/.bashrc에 콘다 관련 전부 주석처리 후 재부팅
+
+
 ### 벨로다인 패키지 설치
 ```bash
 sudo apt install ros-humble-velodyne*
@@ -84,3 +88,7 @@ sudo apt install ros-humble-turtlebot3-msgs
 sudo apt install ros-humble-turtlebot3
 ```
 
+### 가제보설치
+```bash
+sudo apt-get install ros-humble-ros-gz
+```
